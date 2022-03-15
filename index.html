@@ -4,15 +4,72 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Home</title>
 
 	<link rel="stylesheet" href="css/stylesheet.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="javascript/script.js"></script>
+	<script type="text/javascript" src="javascript/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 <body>
+
+	<header id="header-home">
+		<div class="container">
+			<nav id="main-nav">
+				<img src="img/pas.png" alt="PAS Logo" id="logo">
+				<ul>
+					<li><a href="index.html" class="current"> HOME </a></li>
+					<li><a href = "characters.html"> CHARACTERS </a></li>
+                    <li><a href = "about.html"> ABOUT US </a></li>
+                    <li><a href = "play.html"> PLAY </a></li>
+				</ul>
+			</nav>
+			<div class="header-content">
+					<button id="trailer" onclick="openVideo()">
+						<img class="back" src="img/play-button.png">
+					</button>
+            </div>
+		</div>
+	</header>
+
+	<section id="section-news">
+		<div class="container">
+			<h2 class = "section-title"> <------------------ NEWS ------------------> </h2>
+				<div class = "flex-container">
+					<div class = "flex-child image">
+						<img src="img/segNews.webp">
+					</div>
+
+					<div class = "flex-child textnews">
+						<div class="info-text">
+							<ul>
+								<h2> Most Recent </h2>
+								<li> The first stage of the game development process has begun.</li>
+								<li></li>
+								<li> This is a mockup for the home page news section.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	</section>
 	
 	<!-- Footer de la pagina -->
-	<footer></footer>
+	<footer>
+		<div class="footer">
+			Subscribe to stay tunned!
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="email" name="sub_mail" id="sub_mail">
+			<input type="button" value="Subscribe">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-youtube"></i>
+			<i class="fa-brands fa-instagram"></i>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+
+	</footer>
 </body>
 </html>
