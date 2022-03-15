@@ -1,0 +1,128 @@
+body {
+	background: url("https://art.pixilart.com/63183b6fb6c06f6.png");
+	background-size: 100vh;
+	background-position:top;
+}
+
+/* Nation Selector */
+.nations {
+	width: 100%;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+.nations table {
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.nations td {
+	width: 13%;
+}
+
+/* Slide Navigation */
+.body {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider {
+	width: 60%;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 2s;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10%;
+}
+
+.slide h1 {
+	font-family: sans-serif;
+	color: white;
+	height: 20px;
+	margin-bottom: -40px;
+}
+
+.slide p {
+	color: white;
+	width: 25%;
+	margin-left: 20%;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: left;
+	margin-top: 13%;
+	margin-bottom: -33%;
+}
+
+.slide img{
+	width: 550px;
+	height: 500px;
+	margin-left: 50%;
+}
+
+/* CSS for manual slide navigation */
+.navigation-manual {
+	position: absolute;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 4px solid #e5ff00;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual-btn:hover {
+	background: #000000;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+/* Estilo de Footer */
+footer {
+	background-color: rgb(65, 141, 255);
+	width: 100%;
+	left: 0px;
+	text-align: center;
+}
+/* Centrado de Contenido en Footer */
+.footer {
+	padding: 25px 25px;
+	color: white;
+}
