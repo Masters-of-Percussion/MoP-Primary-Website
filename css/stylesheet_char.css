@@ -1,16 +1,93 @@
-body {
-	background: url("https://art.pixilart.com/63183b6fb6c06f6.png");
-	background-size: 100vh;
-	background-position:top;
+.container {
+    max-width: 1270px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
 }
 
-/* Nation Selector */
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.8;
+    background: #fff;
+    margin: 0;
+}
+ 
+ul {
+    list-style: none;
+}
+
+img {
+    width:100;
+}
+
+#logo {
+    width: 180px;
+    height: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50%;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem; 
+}
+
+/* This makes the elements on the nav-bar horizontal */
+#main-nav ul {
+    display: flex; 
+}
+
+#main-nav li {
+    padding: 1rem 1.5rem; 
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s; 
+}
+
+#main-nav a:hover {
+    border-color: #ccc; 
+}
+#main-nav a.current {
+    border-color: #1c56df; 
+}
+
+#header-home {
+    background: url("../img/bonfire.gif") no-repeat center right/cover;
+    height: 100vh;
+    color: #fff; 
+}
+
+#header-home .header-content {
+    text-align: center;
+    padding-top: 20%; 
+}
+
+#header-inner {
+    background: url("../img/bonfire.gif") no-repeat 20% 30%/cover;
+    height: 7rem;
+    border-bottom: 3px solid #2c62e0; 
+}
+
+.characters {
+	background: url("../img/tree.webp");
+}
+
 .nations {
 	width: 100%;
 	font-size: 25px;
 	font-family: sans-serif;
 	text-align: center;
-	margin: 10px 10px;
+	margin-top: 80px;
 }
 
 .nations table {
@@ -24,7 +101,7 @@ body {
 }
 
 /* Slide Navigation */
-.body {
+.body-sliders {
 	margin: 0;
 	padding: 0;
 	height: auto;
@@ -34,10 +111,10 @@ body {
 }
 
 .slider {
-	width: 60%;
-	height: 500px;
-	border-radius: 10px;
+	width: 90%;
+	height: 604px;
 	overflow: hidden;
+	margin-top: 25px;
 }
 
 .slides {
@@ -72,7 +149,7 @@ body {
 	font-size: 25px;
 	font-family: sans-serif;
 	text-align: left;
-	margin-top: 13%;
+	margin-top: 9%;
 	margin-bottom: -33%;
 }
 
@@ -80,6 +157,7 @@ body {
 	width: 550px;
 	height: 500px;
 	margin-left: 50%;
+	margin-top: -6%;
 }
 
 /* CSS for manual slide navigation */
