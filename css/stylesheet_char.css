@@ -115,55 +115,45 @@ img {
 	height: 604px;
 	overflow: hidden;
 	margin-top: 25px;
-}
-
-.slides {
-	width: 500%;
-	height: 500px;
-	display: flex;
-}
-
-.slides input {
-	display: none;
+	text-align: center;
+	background-color: #0000004f;
+	border-radius: 20%;
 }
 
 .slide {
-	width: 20%;
-	transition: 2s;
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.4);
-	border-radius: 10%;
+	width: 100%;
+	height: 80%;
 }
 
-.slide h1 {
+.slider h1 {
 	font-family: sans-serif;
 	color: white;
 	height: 20px;
-	margin-bottom: -40px;
 }
 
-.slide p {
+.slider p {
 	color: white;
 	width: 25%;
+	height: 60%;
 	margin-left: 20%;
-	font-size: 25px;
+	font-size: 1.2vw;
 	font-family: sans-serif;
 	text-align: left;
 	margin-top: 9%;
 	margin-bottom: -33%;
 }
 
-.slide img{
-	width: 550px;
-	height: 500px;
+.slider img{
+	width: 50%;
+	height: auto;
 	margin-left: 50%;
 	margin-top: -6%;
 }
 
 /* CSS for manual slide navigation */
 .navigation-manual {
-	position: absolute;
-	width: 60%;
+	position: relative;
+	bottom: 10px;
 	display: flex;
 	justify-content: center;
 }
@@ -199,6 +189,7 @@ footer {
 	left: 0px;
 	text-align: center;
 }
+
 /* Centrado de Contenido en Footer */
 .footer {
 	padding: 25px 25px;

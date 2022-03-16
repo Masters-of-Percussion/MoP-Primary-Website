@@ -5,10 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-
+	<!-- Stylesheet -->
 	<link rel="stylesheet" href="css/stylesheet_char.css">
+	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="javascript/script.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<script src="./javascript/script.js"></script>
 	<script src="https://kit.fontawesome.com/a58ac90e93.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,43 +30,41 @@
 	
 	<section class="characters">
 		<div class="container">
-				<div class="nations">
-					<table>
-						<tr>
-							<td>America</td>
-							<td>Japan</td>
-							<td>Coming Soon</td>
-						</tr>
-					</table>
-				</div>
-		
-				<div class="body-sliders">
-					<!-- Slider de Imagenes -->
-					<div class="slider">
-						<div class="slides">
-							<!-- Botones estilo radio -->
-							<input type="radio" name="radio-btn" id="radio1">
-							<input type="radio" name="radio-btn" id="radio2">
-							<!-- Imagenes correspondientes -->
-							<div class="slide first">
-								<h1>MIWOK</h1>
-								<p>Es un pequeño oso oriundo de Indianapolis. Su mentor es TAIMA, quien lo envio a explorar los distintos instrumentos de percusion en el mundo.</p>
-								<img src="./src/miwok.png" alt="">
-							</div>
-							<div class="slide">
-								<h1>TAIMA</h1>
-								<p>Es el maestro de Miwok y tiene amplios conocimientos sobre los distintos instrumentos de persucion en el mundo. Decide enviar a Miwok en un viaje que el mismo hizo en su juventud.</p>
-								<img src="./src/taima.png" alt="">
-							</div>
-						</div>
-						<!-- manual navigation -->
-						<div class="navigation-manual">
-							<label for="radio1" class="manual-btn"></label>	<label for="radio2" class="manual-btn"></label>
-						</div>
+			<div class="nations">
+				<table>
+					<tr>
+						<td>America</td>
+						<td>Japan</td>
+						<td>Coming Soon</td>
+					</tr>
+				</table>
+			</div>
+	
+			<div class="body-sliders">
+				<!-- Slider de Imagenes -->
+				<div class="slider">
+					<!-- Botones estilo radio -->
+					<input type="radio" name="radio-btn" id="radio1" hidden>
+					<input type="radio" name="radio-btn" id="radio2" hidden>
+					<!-- Imagenes correspondientes -->
+					<div class="miwok slide first">
+						<h1>MIWOK</h1>
+						<p>Es un pequeño oso oriundo de Indianapolis. Su mentor es TAIMA, quien lo envio a explorar los distintos instrumentos de percusion en el mundo.</p>
+						<img src="./src/miwok.png" alt="">
+					</div>
+					<div class="taima slide">
+						<h1>TAIMA</h1>
+						<p>Es el maestro de Miwok y tiene amplios conocimientos sobre los distintos instrumentos de persucion en el mundo. Decide enviar a Miwok en un viaje que el mismo hizo en su juventud.</p>
+						<img src="./src/taima.png" alt="">
+					</div>
+
+					<!-- manual navigation -->
+					<div class="navigation-manual">
+						<label for="radio1" class="manual-btn"></label>
+						<label for="radio2" class="manual-btn"></label>
 					</div>
 				</div>
-
-				
+			</div>
 		</div>
 	</section>
 	<!-- Footer de la pagina -->
