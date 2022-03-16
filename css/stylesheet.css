@@ -94,7 +94,7 @@ img {
 
 .flex-container {
     display: flex;
-    padding-bottom: 35px;
+    padding-bottom: 180px;
 }
 
 .flex-child {
@@ -122,6 +122,72 @@ img {
     padding-bottom: 322px;
     margin-top: -32px;
 }
+
+.aboutpas{
+    padding-top: 80px;
+    padding-left: 130px;
+}
+
+.aboutpas h3{
+    color:rgb(252, 170, 7);
+}
+
+.flex-child .drummer{
+    width: 550px;
+    height: 320px;
+    padding-top: 140px;
+}
+
+.aboutgame {
+    padding-left: 100px;
+    padding-top: 0;
+}
+
+.aboutgame p{
+    width: 400px;
+}
+
+.flex-child .gameslide {
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.aboutgame h2{
+    color:rgb(252, 170, 7);
+}
+.aboutplaying h2{
+    color:rgb(252, 170, 7);
+}
+
+.flex-child .cuphead1 {
+    width: 600px;
+    padding-left: 40px;
+}
+
+.flex-child .cuphead2 {
+    width: 550px;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+.controls p{
+    padding-left: 40px;
+}
+
+.controls ul{
+    padding-left: 90px;
+    color: blue;
+}
+
+.info-team {
+    background: rgba(206, 206, 52, 0.637);
+}
+
+.flex-child .team{
+    padding-top: 200px;
+}
+
+
 
 footer {
 	background-color: rgb(65, 141, 255);
