@@ -1,0 +1,16 @@
+{ 
+   "hardest" : {
+		"lvlId" : 2,
+		"quizId" : 3,
+		"questionId" : 20
+	},
+   "easiest" :  {
+		"lvlId" : 1,
+		"quizId" : 1,
+		"questionId" : 1
+	},
+   "avrgQuizScore" : 5300,
+   "mostUsedInstr" : "Tambor",
+   "trophies" : ["Empieza tu camino", "Gana un quiz"],
+   "totalPlaytime" : 503780
+}

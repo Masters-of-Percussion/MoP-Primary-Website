@@ -1,0 +1,8 @@
+{ 
+   "quizId" : 2,
+   "highestScore" : 5000,
+   "timesPlayed" : 50,
+   "timesFailed" : 32,
+   "averageScore" : 2300,
+   "diffQuestion" : "What is a popular instrument in Japan?"
+}

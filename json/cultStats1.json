@@ -1,0 +1,15 @@
+{ 
+   "levelId" : {
+		"highestScore" : [1, 5000],
+		"fatestTime" : [1, 180],
+		"timesPlayed" : 20,
+		"timesPassed" : 18
+	},
+   "quizID" :  {
+		"highestScore" : [1, 5000],
+		"fatestTime" : [1, 180],
+		"timesPlayed" : 18,
+		"timesPassed" : 9
+	},
+   "averagePlaytime" : 50780
+}
