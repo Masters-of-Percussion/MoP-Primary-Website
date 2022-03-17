@@ -78,8 +78,13 @@ img {
     border-bottom: 3px solid #2c62e0; 
 }
 
-.back {
-    width:80px;
+.back{
+    background-color: transparent;
+    border: none;
+}
+
+.back img{
+    width: 40%;
 }
 
 .section-title {
@@ -94,7 +99,7 @@ img {
 
 .flex-container {
     display: flex;
-    padding-bottom: 35px;
+    padding-bottom: 200px;
 }
 
 .flex-child {
@@ -121,6 +126,139 @@ img {
     font-size: 25px;
     padding-bottom: 322px;
     margin-top: -32px;
+}
+
+.aboutpas{
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+}
+
+.aboutpas h3{
+    color:rgb(252, 170, 7);
+}
+.aboutpas p{
+    font-size: 20px;
+}
+
+.flex-child .drummer{
+    width: 600px;
+    height: 370px;
+    padding-top: 190px;
+}
+
+.aboutgame {
+    padding-left: 100px;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+.aboutgame h2{
+    color:rgb(252, 170, 7);
+}
+
+.aboutgame p{
+    width: 480px;
+    font-size: 18px;
+}
+
+.flex-child .gameslide {
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.aboutplaying h2{
+    color:rgb(252, 170, 7);
+}
+
+.flex-child .cuphead1 {
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flex-child .cuphead2 {
+    width: 600px;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+.controls p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.controls ul{
+    padding-left: 90px;
+    color: blue;
+    font-size: 20px;
+}
+
+.flex-child.community {
+    margin-right: 120px;
+}
+
+.stats ul {
+    font-size: 20px;
+}
+
+.stats h2 {
+    color:rgb(252, 170, 7);
+}
+
+.stats .graph{
+    padding-top: 40px;
+}
+
+.flex-child.team {
+    padding-top: 100px;
+}
+.info-team {
+    background: rgba(206, 206, 52, 0.637);
+    padding: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.info-team p {
+    font-size: 18px;
+}
+
+.info-team ul {
+    font-size: 18px;
+}
+
+.info-team .team-image {
+    width: 87%;
+    padding-left: 40px;
+}
+
+.leaderboardbox h2{
+    color:rgb(252, 170, 7);
+}
+
+.leaderboardbox .leaderboard {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.fanfavoritesbox h2{
+    color:rgb(252, 170, 7);
+}
+
+.fanfavoritesbox .favinstruments {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.worldbox h2{
+    color:rgb(252, 170, 7);
+}
+
+.worldbox .worldstats {
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-bottom: 40px;
 }
 
 footer {
