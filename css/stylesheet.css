@@ -261,6 +261,11 @@ img {
     padding-bottom: 40px;
 }
 
+.game .login-screen {
+    width: 120%;
+    padding-top: 60px;
+}
+
 footer {
 	background-color: rgb(65, 141, 255);
 	width: 100%;
